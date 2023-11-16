@@ -1,0 +1,24 @@
+.list {
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.list .buy-list .order-item {
+  justify-content: flex-end;
+
+  padding: 5px;
+}
+
+.list .sell-list .order-item {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+
+  padding: 5px;
+}
